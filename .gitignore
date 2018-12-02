@@ -1,0 +1,28 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+/README.txt
+/forge-1.12.2-14.23.5.2768-changelog.txt
+/gradle.properties
+/gradlew
+/gradlew.bat
+/gradle/

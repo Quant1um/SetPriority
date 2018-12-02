@@ -1,0 +1,16 @@
+[
+{
+  "modid": "setpriority",
+  "name": "SetPriority",
+  "description": "Mod that sets priority of Minecraft process on Windows OS. You can use this mod if you need to set priority of process in order to Minecraft to work properly (in some rare cases minecraft lags can be fixed by setting priority to low, or high, or whatever)",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Quant1um"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
