@@ -40,8 +40,8 @@ public final class ModProvider
     }
     
     private static final void trySetPriority(EnumPriority prio) {
-    	if(prio == EnumPriority.DISABLED) {
-    		logger().info("Setting priority is disabled: skipping");
+    	if(prio == EnumPriority.DEFAULT) {
+    		logger().info("Setting priority is defaulted: skipping");
     		return;
     	}
     	

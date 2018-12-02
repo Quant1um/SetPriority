@@ -3,7 +3,7 @@ package net.quantium.setpriority;
 import java.util.ArrayList;
 
 public enum EnumPriority {
-	DISABLED	(-1, 	""),
+	DEFAULT		(-1, 	"default"), //up to OS to decide what priority will be used (mod just doesn't set priority)
 	LOW			(64, 	"low"),
 	BELOW_NORMAL(16384, "below_normal"),
 	NORMAL		(32, 	"normal"),
@@ -51,9 +51,7 @@ public enum EnumPriority {
 	public static final String getNames() {
 		ArrayList<String> strings = new ArrayList<String>();
 		for(EnumPriority prio : values()) {
-			if(prio != DISABLED) {
-				strings.add(prio.getName());
-			}
+			strings.add(prio.getName());
 		}
 		
 		return String.join(", ", strings);

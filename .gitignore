@@ -26,3 +26,5 @@ run
 /gradlew
 /gradlew.bat
 /gradle/
+/logs/
+/config/

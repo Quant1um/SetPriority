@@ -11,7 +11,7 @@ public final class ModConfig {
 	public static final String PRIORITY_NAME = "priority";
 	public static final String PRIORITY_CATEGORY = Configuration.CATEGORY_GENERAL;
 	public static final String PRIORITY_DEFAULT = EnumPriority.LOW.toString();
-	public static final String PRIORITY_COMMENT = "Desired priority of minecraft process. Must be one of these: " + EnumPriority.getNames() + ", or leave empty to disable.";
+	public static final String PRIORITY_COMMENT = "Desired priority of minecraft process. Must be one of these: " + EnumPriority.getNames();
 	
 	private final Configuration config;
 	
